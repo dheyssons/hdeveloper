@@ -11,7 +11,8 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 export const metadata: Metadata = {
-  title: 'Graunke Media'
+  title: 'Dheysson Souza - Web Design & Development',
+  description: 'Portfolio website to show my skills and experience with Web Development'
 }
 
 export default function RootLayout({

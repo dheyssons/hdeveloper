@@ -24,13 +24,13 @@ export default function Projects() {
 					{/* hero lines  */}
 					<div className='flex flex-col items-center'>
 						<div className="flex flex-row items-center gap-x-4 md:gap-x-8">
-							<motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1} viewport={{once: true}} className="h1">Meus</motion.h1>
+							<motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1} viewport={{once: true}} className="h1">Mes</motion.h1>
 							<div className="flex flex-row justify-center items-center w-[8rem] md:w-[12rem] h-[4rem] relative">
 								<img src="/mask.webp" alt="" />
 								<motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" transition={transition1} viewport={{once: true}}  className='absolute black h-full top-0 bottom-auto left-auto right-0'></motion.div>
 							</div>
 						</div>
-						<motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}}  className="h1">Projetos</motion.h1>
+						<motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}}  className="h1">Projets</motion.h1>
 					</div>
 					{/* text  */}
 					<motion.div variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}} >
@@ -42,9 +42,9 @@ export default function Projects() {
 				<motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='w-full max-w-[75rem] flex flex-col justify-center'>
 					<div className='border-b-2 border-b-[--grey-medium]'>
 						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Lorien Website Design</div>
+							<div>Website Design & Development for GMW Construct</div>
 							<div className='project_image_container'>
-								<img src="https://uploads-ssl.webflow.com/6476fe0149031242bb8dfb02/6478e5ef084aab490e915be9_simon-lee-R_6A6CovgIM-unsplash%20(1).jpg" alt="" />
+								<img src="projects/gmwconstruct.png" alt="" />
 							</div>
 							<div className='project'></div>
 						</a>
@@ -52,9 +52,9 @@ export default function Projects() {
 					
 					<div className='border-b-2 border-b-[--grey-medium]'>
 						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Digital Branding for TriOne</div>
+							<div>Web Design & Development for Hygor Fonseca (Photographer)</div>
 							<div className='project_image_container'>
-								<img src="https://uploads-ssl.webflow.com/6476fe0149031242bb8dfb02/647704443beb0b2857bbc8d7_silvio-kundt-pOZGBVICxDc-unsplash-min.jpg" alt="" />
+								<img src="projects/hygorfonseca.png" alt="" />
 							</div>
 							<div className='project'></div>
 						</a>
@@ -62,9 +62,9 @@ export default function Projects() {
 
 					<div className='border-b-2 border-b-[--grey-medium]'>
 						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Web Development for QuickRop</div>
+							<div>Web Design & Development for Renato Fernandes (Photographer)</div>
 							<div className='project_image_container'>
-								<img src="https://uploads-ssl.webflow.com/6476fe0149031242bb8dfb02/6477025ee45b8de2e02aab90_and-machines-p9Of0dvgvcs-unsplash.jpg" alt="" />
+								<img src="projects/renatofernandes.png" alt="" />
 							</div>
 							<div className='project'></div>
 						</a>
@@ -72,19 +72,9 @@ export default function Projects() {
 
 					<div className='border-b-2 border-b-[--grey-medium]'>
 						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>I Dont Give A Fuck</div>
+							<div>Votre entreprise pourrait être ici</div>
 							<div className='project_image_container'>
-								<img src="https://uploads-ssl.webflow.com/6476fe0149031242bb8dfb02/6477025ee45b8de2e02aab90_and-machines-p9Of0dvgvcs-unsplash.jpg" alt="" />
-							</div>
-							<div className='project'></div>
-						</a>
-					</div>
-
-					<div className='border-b-2 border-b-[--grey-medium]'>
-						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Oh My God</div>
-							<div className='project_image_container'>
-								<img src="https://uploads-ssl.webflow.com/6476fe0149031242bb8dfb02/6477025ee45b8de2e02aab90_and-machines-p9Of0dvgvcs-unsplash.jpg" alt="" />
+								<img src="projects/placeholder.png" className='object-cover flex' alt="" />
 							</div>
 							<div className='project'></div>
 						</a>

@@ -1,6 +1,6 @@
 {
-  "name": "graunkemedia",
-  "version": "0.1.0",
+  "name": "dheyssonsouza",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,7 +17,7 @@
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
     "framer-motion": "^10.16.4",
-    "next": "^13.5.4",
+    "next": "^13.5.8",
     "postcss": "8.4.30",
     "postprocessing": "^6.33.2",
     "react": "18.2.0",
