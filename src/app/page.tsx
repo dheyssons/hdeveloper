@@ -90,13 +90,13 @@ export default function Home() {
           </div>
           {/* img  */}
           <motion.div variants={righttoleft} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex w-full max-w-[28rem] rounded-[2.5rem] p-[1rem] grey'>
-            <img className='rounded-[2.5rem] flex object-cover' src='/me.png'/>
+            <img className='rounded-[2.5rem] flex object-cover' src='/pic.png'/>
           </motion.div>
         </div>
 
         {/*  text & button  */}
         <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col gap-y-8 px-4'>
-          <p className={`p text-[1.2rem] md:text-[1.4rem] text-center`}>Aliquam tincidunt in lectus in dictum. Phasellus sodales hendrerit vehicula. Vivamus imperdiet sed ipsum non placerat. Sed at cursus risus.</p>
+          <p className={`p text-[1.2rem] md:text-[1.5rem] text-center`}>Aliquam tincidunt in lectus in dictum. Phasellus sodales hendrerit vehicula. Vivamus imperdiet sed ipsum non placerat. Sed at cursus risus.</p>
           <button className='btn self-center'>Sobre</button>
         </motion.div>
       </div>
