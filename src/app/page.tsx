@@ -47,7 +47,7 @@ export default function Home() {
           {/* text  */}
           <div className='mx-[1.2rem]'>
             <motion.p variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_d}
-            className={`p large text-center`} >Eleve seu negócio para outro patamar com a decisão certa.</motion.p>
+            className={`p large text-center`} >Faites passer votre entreprise à un autre niveau en prenant la bonne décision.</motion.p>
         </div>
         {/* logos  */}
         {/* <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className='grid grid-cols-3 md:grid-cols-5 justify-center items-center gap-6 mx-4 px-4'>
@@ -78,14 +78,12 @@ export default function Home() {
             </div>
             {/* info  */}
             <motion.div variants={lefttoright} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col grey max-w-[28rem] rounded-[2.5rem] p-8 justify-end'>
-              <h6 className='h6 mb-3'>2+ anos de experiência</h6>
-              <p className={`p regular`}>Olá! Sou Dheysson, desenvolvedor web focado em criar soluções inovadoras e funcionais. Com experiência em diversas tecnologias e uma abordagem focada em resultados, busco sempre transformar ideias em produtos digitais impactantes. Acredito que a combinação de design, usabilidade e código limpo é a chave para uma experiência de usuário única e eficaz.</p>
+              <h6 className='h6 mb-3'>1 an d'expérience</h6>
+              <p className={`p regular`}>Bonjour! Je m'appelle Dheysson, un développeur Web axé sur la création de solutions innovantes et fonctionnelles. Forte d'une expérience dans diverses technologies et d'une approche axée sur les résultats, je cherche toujours à transformer les idées en produits numériques percutants. Je crois que la combinaison du design, de la convivialité et d'un code propre est la clé d'une expérience utilisateur unique et efficace.</p>
               <br />
-              <h6 className='h6 mb-3'>4+ projetos</h6>
-              <p className={`p regular`}>Nu</p>
+              <h6 className='h6 mb-3'>2+ projets</h6>
+              <p className={`p regular`}>lorem ipsum</p>
               <br />
-              <h6 className='h6 mb-3'>35 team members</h6>
-              <p className={`p regular`}>Pellentesque quam nullam id diam mattis, faucibus nibh condimentum, semper nunc.</p>
             </motion.div>
           </div>
           {/* img  */}
@@ -95,16 +93,16 @@ export default function Home() {
         </div>
 
         {/*  text & button  */}
-        <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col gap-y-8 px-4'>
+        {/* <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col gap-y-8 px-4'>
           <p className={`p text-[1.2rem] md:text-[1.5rem] text-center`}>Aliquam tincidunt in lectus in dictum. Phasellus sodales hendrerit vehicula. Vivamus imperdiet sed ipsum non placerat. Sed at cursus risus.</p>
           <button className='btn self-center'>Sobre</button>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* our services  */}
       <div className='flex flex-col items-center gap-y-16 grey_medium'>
         <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col items-center gap-y-16 m-10'>
-          <h2 className='h2'>Serviços</h2>
+          <h2 className='h2'>Services</h2>
           <div className='max-w-[62rem] grid md:grid-cols-2 gap-[1.25rem]'>
             <div className='grid_box left_top'>
               <h6 className='h6'>Graphic Design</h6>
@@ -130,10 +128,10 @@ export default function Home() {
       <div className='container mx-auto'>
         <div className='container mx-auto flex flex-col items-center gap-y-16 w-[100%] max-w-[75rem] h-full relative px-4'>
           <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className='flex flex-col items-center m-4 md:m-10'>
-            <motion.h2 variants={item} className='h2'>Meus projetos</motion.h2>
+            <motion.h2 variants={item} className='h2'>Mes récents</motion.h2>
             {/* hero lines  */}
             <motion.div variants={item} className='flex flex-row items-center justify-around'>
-              <h2 className='h2'>recentes</h2>
+              <h2 className='h2'>projets</h2>
               <div className='flex items-center w-[25%] md:w-full max-w-[6.2rem] h-[3.5rem] relative'>
                 <img src="/shape_small.webp" alt="" />
                 <motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='absolute black h-full top-0 bottom-auto left-auto right-0' ></motion.div>
@@ -145,7 +143,7 @@ export default function Home() {
           <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='w-full max-w-[75rem] flex flex-col justify-center'>
             <div className='border-b-2 border-b-[--grey-medium]'>
               <a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="https://www.gmwconstructbe.com">
-                <div>Web Design & Development for GMW Construct</div>
+                <div>Web Design & Development pour GMW Construct</div>
                 <div className='project_image_container'>
                   <img src="projects/gmwconstruct.png" alt="" />
                 </div>
@@ -154,7 +152,7 @@ export default function Home() {
             </div>
             <div className='border-b-2 border-b-[--grey-medium]'>
               <a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="https://portfoliohygorfonseca.vercel.app/">
-                <div>Web Design & Development for Hygor Fonseca (Photographer)</div>
+                <div>Web Design & Development pour Hygor Fonseca (Photographer)</div>
                 <div className='project_image_container'>
                   <img src="projects/hygorfonseca.png" alt="" />
                 </div>
@@ -163,7 +161,7 @@ export default function Home() {
             </div>
             <div className='border-b-2 border-b-[--grey-medium]'>
               <a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="https://renatofernandes.vercel.app">
-                <div>Web Design & Development for Renato Fernandes (Photographer)</div>
+                <div>Web Design & Development pour Renato Fernandes (Photographer)</div>
                 <div className='project_image_container'>
                   <img src="projects/renatofernandes.png" alt="" />
                 </div>
@@ -222,12 +220,12 @@ export default function Home() {
         <div className='flex flex-col items-center gap-y-6 md:gap-y-16 w-full bg-cover bg-[url("/facade.webp")]'>
           <div className='mt-6 md:mt-10 bg-[rgba(30,30,30,0.6)] w-full max-w-[22rem] md:max-w-[70rem] rounded-[2.5rem]'>
             <div className='flex flex-col items-center py-[2rem] md:py-[3rem] px-[0.5rem] gap-y-6'>
-              <h2 className='h2 text-[1.7rem] text-center'>Vamos trabalhar juntos</h2>
+              <h2 className='h2 text-[1.7rem] text-center'>Travaillons ensemble</h2>
               <p className={`p text-[1rem] md:text-[1.5rem] text-center`}>Morbi elementum tellus non nunc fringilla, tempor imperdiet ex aliquam. Integer lacinia viverra blandit.</p>
             </div>
           </div>
           
-          <button className='btn_light m-10'>Vamos conversar</button>
+          <button className='btn_light m-10'>Parlons</button>
         </div>
 
         <motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='absolute black h-full top-0 bottom-auto left-auto right-0'></motion.div>
