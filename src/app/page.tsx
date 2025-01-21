@@ -90,7 +90,7 @@ export default function Home() {
           </div>
           {/* img  */}
           <motion.div variants={righttoleft} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex w-full max-w-[28rem] rounded-[2.5rem] p-[1rem] grey'>
-            <img className='rounded-[2.5rem] flex object-cover' src='me.png'/>
+            <img className='rounded-[2.5rem] flex object-cover' src='/me.png'/>
           </motion.div>
         </div>
 
