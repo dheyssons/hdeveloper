@@ -8,14 +8,9 @@ import { transition1 } from '../../transitions/transition1'
 import { transition1_s } from '../../transitions/transition1_s'
 import { transition1_d } from '../../transitions/transition1_d'
 
-import { useEffect } from 'react'
+import LetsWorkTogether from '@/components/LetsWorkTogether';
 
 export default function Projects() {
-	useEffect(() => {
-		document.querySelectorAll('.tab')[1]?.classList.add('active_tab');
-		document.querySelectorAll('.mtab')[1]?.classList.add('active_tab');
-	})
-
     return (
 		<motion.section transition={transition1_s}>
 			<div className="container mx-auto flex flex-col items-center gap-y-[8rem] px-4">
@@ -83,20 +78,7 @@ export default function Projects() {
 			</div>
 
 			{/* Lets work together  */}
-			<div className='flex flex-col items-center relative mt-[10rem]'>
-				<div className='flex flex-col items-center gap-y-6 md:gap-y-16 w-full bg-cover bg-[url("/facade.webp")]'>
-					<div className='mt-6 md:mt-10 bg-[rgba(30,30,30,0.6)] w-full max-w-[22rem] md:max-w-[70rem] rounded-[2.5rem]'>
-						<div className='flex flex-col items-center py-[2rem] md:py-[3rem] px-[0.5rem] gap-y-6'>
-							<h2 className='h2 text-[1.7rem] text-center'>Vamos trabalhar juntos</h2>
-							<p className='p text-[1rem] md:text-[1.5rem] text-center'>Morbi elementum tellus non nunc fringilla, tempor imperdiet ex aliquam. Integer lacinia viverra blandit.</p>
-						</div>
-					</div>
-					
-					<button className='btn_light m-10'>Vamos conversar</button>
-				</div>
-
-				<motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='absolute black h-full top-0 bottom-auto left-auto right-0'></motion.div>
-			</div>
+			<LetsWorkTogether/>
       </motion.section>
     )
 }

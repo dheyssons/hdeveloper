@@ -39,7 +39,7 @@ export default function Header() {
                     <ul className='flex flex-col h-full gap-y-10 items-center justify-center'>
                         <li><a className='mtab a' href="/">Home</a></li>
                         <li><a className='mtab a' href="/portfolio">Projects</a></li>
-                        <li><a className='mtab a' href="/about">About me</a></li>
+                        {/* <li><a className='mtab a' href="/about">About me</a></li> */}
                         <li><a className='mtab a' href="/contact">Contact</a></li>
                     </ul>
                 </nav>

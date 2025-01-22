@@ -14,6 +14,8 @@ import { lefttoright } from '../variants/lefttoright';
 
 import { useState } from 'react'
 
+import LetsWorkTogether from '@/components/LetsWorkTogether';
+
 export default function Home() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
 
@@ -31,7 +33,7 @@ export default function Home() {
         <div className='flex flex-col items-center mt-20'>
           
           {/* hero lines  */}
-          <div className='flex flex-row justify-center items-center gap-x-2 md:gap-x-4 z-50'>
+          <div className='flex flex-row justify-center items-center gap-x-2 md:gap-x-4 z-40'>
             <div>
               <motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='h1'>S'élever vers</motion.h1>
             </div>
@@ -79,15 +81,12 @@ export default function Home() {
             {/* info  */}
             <motion.div variants={lefttoright} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col grey max-w-[28rem] rounded-[2.5rem] p-8 justify-end'>
               <h6 className='h6 mb-3'>1 an d'expérience</h6>
-              <p className={`p regular`}>Bonjour! Je m'appelle Dheysson, un développeur Web axé sur la création de solutions innovantes et fonctionnelles. Forte d'une expérience dans diverses technologies et d'une approche axée sur les résultats, je cherche toujours à transformer les idées en produits numériques percutants. Je crois que la combinaison du design, de la convivialité et d'un code propre est la clé d'une expérience utilisateur unique et efficace.</p>
-              <br />
-              <h6 className='h6 mb-3'>2+ projets</h6>
-              <p className={`p regular`}>lorem ipsum</p>
+              <p className={`p regular`}>Bonjour! Je m'appelle Dheysson Souza, je suis développeur web avec 1 an d'expérience, passionné par la création de solutions numériques innovantes et fonctionnelles. Je maîtrise différentes technologies et j'adopte une approche axée sur les résultats, transformant les idées en produits digitaux percutants. Pour moi, la clé d'une expérience utilisateur exceptionnelle réside dans la combinaison harmonieuse du design, de l'utilisabilité et d'un code propre.</p>
               <br />
             </motion.div>
           </div>
           {/* img  */}
-          <motion.div variants={righttoleft} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex w-full max-w-[28rem] rounded-[2.5rem] p-[1rem] grey'>
+          <motion.div variants={righttoleft} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='hidden md:flex w-full max-w-[28rem] rounded-[2.5rem] p-[1rem] grey'>
             <img className='rounded-[2.5rem] flex object-cover' src='/pic.png'/>
           </motion.div>
         </div>
@@ -105,20 +104,20 @@ export default function Home() {
           <h2 className='h2'>Services</h2>
           <div className='max-w-[62rem] grid md:grid-cols-2 gap-[1.25rem]'>
             <div className='grid_box left_top'>
-              <h6 className='h6'>Graphic Design</h6>
-              <p className={`p medium`}>Nulla sed nulla vestibulum neque pharetra elementum sit amet non nunc. Fusce ut faucibus quam. Suspendisse lectus orci, pharetra in est at, malesuada placerat mauris.</p>
+              <h6 className='h6'>Design Graphique</h6>
+              <p className={`p medium`}>Création d'identités visuelles attrayantes qui véhiculent efficacement le message de votre marque.</p>
             </div>
             <div className='grid_box right_top'>
-              <h6 className='h6'>Web Design & Development</h6>
-              <p className={`p medium`}>Proin pharetra, felis non placerat scelerisque, lectus risus vulputate augue, eu tincidunt dolor orci at enim. Sed tincidunt enim sapien, eu mollis risus convallis a.</p>
+              <h6 className='h6'>Design et Développement Web</h6>
+              <p className={`p medium`}>Design et développement de sites web responsifs et fonctionnels, offrant une expérience utilisateur remarquable.</p>
             </div>
             <div className='grid_box left_bottom'>
-              <h6 className='h6'>UX/UI Design</h6>
-              <p className={`p medium`}>Quisque tristique posuere posuere. Mauris vitae sem in est malesuada sollicitudin sit amet non mauris. Vivamus ut placerat arcu.</p>
+              <h6 className='h6'>Design UX/UI</h6>
+              <p className={`p medium`}>Design d'interfaces intuitives pour améliorer l'interaction entre l'utilisateur et le produit.</p>
             </div>
             <div className='grid_box right_bottom'>
               <h6 className='h6'>SEO</h6>
-              <p className={`p medium`}>Morbi mi purus, convallis in erat et, iaculis rutrum nisl. Sed mi sapien, molestie sit amet turpis a, dapibus tempus mauris.</p>
+              <p className={`p medium`}>Mise en œuvre de stratégies visant à améliorer la visibilité de votre site dans les résultats de recherche.</p>
             </div>
           </div>
         </motion.div>
@@ -128,10 +127,10 @@ export default function Home() {
       <div className='container mx-auto'>
         <div className='container mx-auto flex flex-col items-center gap-y-16 w-[100%] max-w-[75rem] h-full relative px-4'>
           <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className='flex flex-col items-center m-4 md:m-10'>
-            <motion.h2 variants={item} className='h2'>Mes récents</motion.h2>
+            <motion.h2 variants={item} className='h2'>Projets</motion.h2>
             {/* hero lines  */}
             <motion.div variants={item} className='flex flex-row items-center justify-around'>
-              <h2 className='h2'>projets</h2>
+              <h2 className='h2'>récents</h2>
               <div className='flex items-center w-[25%] md:w-full max-w-[6.2rem] h-[3.5rem] relative'>
                 <img src="/shape_small.webp" alt="" />
                 <motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='absolute black h-full top-0 bottom-auto left-auto right-0' ></motion.div>
@@ -152,7 +151,7 @@ export default function Home() {
             </div>
             <div className='border-b-2 border-b-[--grey-medium]'>
               <a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="https://portfoliohygorfonseca.vercel.app/">
-                <div>Web Design & Development pour Hygor Fonseca (Photographer)</div>
+                <div>Web Design & Development pour Hygor Fonseca (Photographe)</div>
                 <div className='project_image_container'>
                   <img src="projects/hygorfonseca.png" alt="" />
                 </div>
@@ -161,7 +160,7 @@ export default function Home() {
             </div>
             <div className='border-b-2 border-b-[--grey-medium]'>
               <a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="https://renatofernandes.vercel.app">
-                <div>Web Design & Development pour Renato Fernandes (Photographer)</div>
+                <div>Web Design & Development pour Renato Fernandes (Photographe)</div>
                 <div className='project_image_container'>
                   <img src="projects/renatofernandes.png" alt="" />
                 </div>
@@ -169,7 +168,7 @@ export default function Home() {
               </a>
             </div>
 
-            <a href='/projects' className='mt-10 btn self-center'>Tous les projets</a>
+            <a href='/portfolio' className='mt-10 btn self-center'>Tous les projets</a>
           </motion.div>
 
         </div>
@@ -215,21 +214,7 @@ export default function Home() {
         {/* </motion.div>
       </div> */}
 
-      {/* Lets work together  */}
-      <div className='flex flex-col items-center relative'>
-        <div className='flex flex-col items-center gap-y-6 md:gap-y-16 w-full bg-cover bg-[url("/facade.webp")]'>
-          <div className='mt-6 md:mt-10 bg-[rgba(30,30,30,0.6)] w-full max-w-[22rem] md:max-w-[70rem] rounded-[2.5rem]'>
-            <div className='flex flex-col items-center py-[2rem] md:py-[3rem] px-[0.5rem] gap-y-6'>
-              <h2 className='h2 text-[1.7rem] text-center'>Travaillons ensemble</h2>
-              <p className={`p text-[1rem] md:text-[1.5rem] text-center`}>Morbi elementum tellus non nunc fringilla, tempor imperdiet ex aliquam. Integer lacinia viverra blandit.</p>
-            </div>
-          </div>
-          
-          <button className='btn_light m-10'>Parlons</button>
-        </div>
-
-        <motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='absolute black h-full top-0 bottom-auto left-auto right-0'></motion.div>
-      </div>
+      <LetsWorkTogether />
     </motion.section>
   )
 }

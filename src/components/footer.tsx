@@ -19,7 +19,7 @@ export default function Footer() {
 						<a className={`${archivo.className} p medium text-[#ffffff] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[#1e02f2] after:block`}>Menu</a>
 						<a href='/' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Accueil </a>
 						<a href='/portfolio' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Projets </a>
-						<a href='/about' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> À propos de moi </a>
+						{/* <a href='/about' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> À propos de moi </a> */}
 						<a href='/contact' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Contact </a>
 					</div>
 
@@ -35,8 +35,8 @@ export default function Footer() {
 							<div className=' flex flex-col gap-y-10'>
 								<nav>
 									<ul className='flex flex-col md:flex-row gap-4 md:gap-10'>
-										<li><a className={`${archivo.className} social_link`} href="https://www.instagram.com/dheysson.ss/" target='_blank'>Instagram</a></li>
-										<li><a className={`${archivo.className} social_link`} href="https://www.youtube.com/@tiagograunke" target='_blank'>Whatsapp</a></li>
+										<li><a className={`${archivo.className} social_link btn_light`} href="mailto:dheyssonsousasilva@gmail.com" target='_blank'>Email</a></li>
+										<li><a className={`${archivo.className} social_link btn_light`} href="https://api.whatsapp.com/send?phone=5562993127493" target='_blank'>Whatsapp</a></li>
 									</ul>
 								</nav>
 							</div>
