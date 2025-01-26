@@ -36,6 +36,7 @@ export default function Footer() {
 								<nav>
 									<ul className='flex flex-col md:flex-row gap-4 md:gap-10'>
 										<li><a className={`${archivo.className} social_link btn_light`} href="mailto:dheyssonsousasilva@gmail.com" target='_blank'>Email</a></li>
+										<li><a className={`${archivo.className} social_link btn_light`} href="https://www.instagram.com/hdeveloper.dev/" target='_blank'>Instagram</a></li>
 										<li><a className={`${archivo.className} social_link btn_light`} href="https://api.whatsapp.com/send?phone=5562993127493" target='_blank'>Whatsapp</a></li>
 									</ul>
 								</nav>
@@ -44,7 +45,7 @@ export default function Footer() {
 					</div>
 				</div>
 				<div className='mx-4 w-[75%] md:w-full max-w-[75rem] h-[2px] bg-[#2c2c2c] self-center'></div>
-				<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Copyright © 2025 Dheysson Souza.</p>
+				<p className={`${archivo.className} p small self-center text-center m-[1rem]`}>Copyright © 2025 HDeveloper.</p>
 			</motion.div>
 		</footer>
     )

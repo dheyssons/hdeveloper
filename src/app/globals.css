@@ -18,10 +18,10 @@
   }
 
   .h1 {
-    @apply text-[2.8rem] md:text-[6rem] font-bold leading-[120%];
+    @apply text-[2.5rem] md:text-[6rem] font-bold leading-[120%];
   }
   .h2 {
-    @apply text-[2.5rem] md:text-[5rem] font-bold leading-[120%];
+    @apply text-[2.25rem] md:text-[5rem] font-bold leading-[120%];
   }
   .h3 {
     @apply text-[4rem] font-bold leading-[120%];
@@ -45,7 +45,7 @@
   }
 
   .p.large {
-    @apply text-[1.3rem];
+    @apply text-[1.125rem];
   }
   .p.medium {
     @apply text-[1rem];

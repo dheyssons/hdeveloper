@@ -29,7 +29,7 @@ export default function Header() {
             <ul className="flex flex-row gap-x-10 w-full justify-between items-center m-2">
                 <li className="hidden lg:block"><a className='tab a' href="/">Accueil</a></li>
                 <li className="hidden lg:block"><a className='tab a' title='portfolio' href="/portfolio">Projets</a></li>
-                <li className='hidden lg:block'><img alt='logo' className='max-w-[64px] rounded-xl' src='logo.png'></img></li>
+                <li><img alt='logo' className='max-w-[64px] rounded-full m-4' src='logo.png'></img></li>
                 <li className="hidden lg:block"><a className='tab a' title='about' href="/about">À propos</a></li>
                 <li className="hidden lg:block"><a className='tab a' title='contact' href="/contact">Contact</a></li>
                 <li className='block lg:hidden'> <a href='#' onClick={() => handleMenu()}> <RiMenuLine  className="text-[#fff] w-[1.5rem] h-[1.5rem] m-4" /> </a> </li>

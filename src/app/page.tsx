@@ -22,11 +22,11 @@ export default function Home() {
   return (
     <motion.section
     transition={transition1_s}
-    className='flex flex-col gap-y-24 overflow-x-hidden'>
+    className='flex flex-col gap-y-20 lg:gap-y-24 overflow-x-hidden'>
       
 
       {/* HERO CONTAINER  */}
-      <div className='container mx-auto flex flex-col items-center gap-y-10'>
+      <div className='container mx-auto flex flex-col items-center gap-y-4 lg:gap-y-10'>
         
 
         {/* hero  */}
@@ -49,7 +49,7 @@ export default function Home() {
           {/* text  */}
           <div className='mx-[1.2rem]'>
             <motion.p variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_d}
-            className={`p large text-center`} >Faites passer votre entreprise à un autre niveau en prenant la bonne décision.</motion.p>
+            className={`p large text-center`} >Faites passer votre entreprise à un autre niveau en prenant la bonne décision avec HDeveloper.</motion.p>
         </div>
         {/* logos  */}
         {/* <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className='grid grid-cols-3 md:grid-cols-5 justify-center items-center gap-6 mx-4 px-4'>
@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       {/* our services  */}
-      <div className='flex flex-col items-center gap-y-16 grey_medium'>
+      <div className='flex flex-col items-center gap-y-12 lg:gap-y-16 grey_medium'>
         <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='flex flex-col items-center gap-y-16 m-10'>
           <h2 className='h2'>Services</h2>
           <div className='max-w-[62rem] grid md:grid-cols-2 gap-[1.25rem]'>
@@ -127,7 +127,7 @@ export default function Home() {
 
       {/* my recent projects  */}
       <div className='container mx-auto'>
-        <div className='container mx-auto flex flex-col items-center gap-y-16 w-[100%] max-w-[75rem] h-full relative px-4'>
+        <div className='container mx-auto flex flex-col items-center gap-y-12 lg:gap-y-16 w-[100%] max-w-[75rem] h-full relative px-4'>
           <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_s} className='flex flex-col items-center m-4 md:m-10'>
             <motion.h2 variants={item} className='h2'>Projets</motion.h2>
             {/* hero lines  */}
