@@ -68,14 +68,16 @@ export default function Home() {
         <div className='flex flex-col md:flex-row gap-6 px-4'>
           <div className='flex flex-col justify-between gap-y-6 '>
             <div className='md:ml-8 flex flex-col items-center md:items-start'>
-              <motion.h2 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='h2'>Qui suis</motion.h2>
-              {/* hero lines  */}
-              <div className='flex flex-row items-center gap-x-4'>
+            <div className='flex flex-row items-center gap-x-4'>
+              <motion.h2 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='h2'>Derrière</motion.h2>
                 <div className='relative'>
                   <img src="/sla.webp" className='w-full max-w-[81px] md:max-w-[178px]' alt="" />
                   <motion.div variants={leftward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_d} className='absolute black h-full top-0 bottom-auto left-auto right-0'></motion.div>
                 </div>
-                  <motion.h2 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_d} className='h2'>je</motion.h2>
+            </div>
+              {/* hero lines  */}
+              <div className='flex flex-row items-center gap-x-4'>
+                  <motion.h2 variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1_d} className='h2'>HDeveloper</motion.h2>
               </div>
             </div>
             {/* info  */}
