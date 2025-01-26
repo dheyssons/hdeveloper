@@ -28,9 +28,9 @@ export default function Projects() {
 						<motion.h1 variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}}  className="h1">Projets</motion.h1>
 					</div>
 					{/* text  */}
-					<motion.div variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}} >
+					{/* <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}} >
 						<p className='p large'>Cras volutpat, libero et euismod semper, neque orci rhoncus magna, eu venenatis tortor nibh at purus. Vivamus sit amet commodo tortor.</p>
-					</motion.div>
+					</motion.div> */}
 				</div>
 
 				{/* projects  */}

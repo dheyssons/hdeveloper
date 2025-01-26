@@ -11,7 +11,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 export const metadata: Metadata = {
-  title: 'Dheysson Souza - Web Design & Development',
+  title: 'HDeveloper - Web Development',
   description: 'Portfolio website to show my skills and experience with Web Development'
 }
 

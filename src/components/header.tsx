@@ -3,12 +3,11 @@
 import { RiMenuLine } from 'react-icons/ri';
 
 import {motion} from 'framer-motion';
-
 import { transition1 } from '../transitions/transition1';
 import { fade } from '../variants/fade';
 import { dropdown } from '../variants/dropdown';
 
-import {useState} from 'react'
+import {useState} from 'react';
 
 export default function Header() {
     const [openMenu, SetOpenMenu] = useState(false)
@@ -41,6 +40,7 @@ export default function Header() {
                         <li><a className='mtab a' href="/portfolio">Projects</a></li>
                         {/* <li><a className='mtab a' href="/about">About me</a></li> */}
                         <li><a className='mtab a' href="/contact">Contact</a></li>
+                        <li><a className='mtab a' href="">Contact</a></li>
                     </ul>
                 </nav>
             </motion.div>
