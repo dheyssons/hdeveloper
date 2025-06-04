@@ -16,11 +16,11 @@ export default function Footer() {
 				<div className='flex flex-row justify-between'>
 					{/* menu  */}
 					<div className='flex flex-col gap-y-6 px-6'>
-						<a className={`${archivo.className} p medium text-[#ffffff] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[#1e02f2] after:block`}>Menu</a>
+						<a className={`${archivo.className} p medium text-[#ffffff] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[#26bcc9] after:block`}>Menu</a>
 						<a href='/' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Accueil </a>
 						<a href='/portfolio' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Projets </a>
 						{/* <a href='/about' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> À propos de moi </a> */}
-						<a href='/contact' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Contact </a>
+						{/* <a href='/contact' className={`${archivo.className} p hover:text-[#ffffffa1] transition-all`}> Contact </a> */}
 					</div>
 
 					<div className='flex flex-col items-center px-6'>

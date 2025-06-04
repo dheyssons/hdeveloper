@@ -36,7 +36,17 @@ export default function Projects() {
 				{/* projects  */}
 				<motion.div variants={upward} initial="variantInit" whileInView="variantAnim" viewport={{once: true}} transition={transition1} className='w-full max-w-[75rem] flex flex-col justify-center'>
 					<div className='border-b-2 border-b-[--grey-medium]'>
-						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
+						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' target='_blank' href="https://dehaes.vercel.app/">
+							<div>Website Design & Development for Schrijnwerkerij De Haes</div>
+							<div className='project_image_container'>
+								<img src="projects/dehaes.png" alt="" />
+							</div>
+							<div className='project'></div>
+						</a>
+					</div>
+
+					<div className='border-b-2 border-b-[--grey-medium]'>
+						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' target='_blank' href="https://www.gmwconstructbe.com/">
 							<div>Website Design & Development for GMW Construct</div>
 							<div className='project_image_container'>
 								<img src="projects/gmwconstruct.png" alt="" />
@@ -46,8 +56,8 @@ export default function Projects() {
 					</div>
 					
 					<div className='border-b-2 border-b-[--grey-medium]'>
-						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Web Design & Development for Hygor Fonseca (Photographer)</div>
+						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' target='_blank' href="https://portfoliohygorfonseca.vercel.app/">
+							<div>Web Design & Development for Hygor Fonseca (Photographe)</div>
 							<div className='project_image_container'>
 								<img src="projects/hygorfonseca.png" alt="" />
 							</div>
@@ -56,8 +66,8 @@ export default function Projects() {
 					</div>
 
 					<div className='border-b-2 border-b-[--grey-medium]'>
-						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' href="#">
-							<div>Web Design & Development for Renato Fernandes (Photographer)</div>
+						<a className='a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative' target='_blank' href="https://renatofernandes.vercel.app/">
+							<div>Web Design & Development for Renato Fernandes (Photographe)</div>
 							<div className='project_image_container'>
 								<img src="projects/renatofernandes.png" alt="" />
 							</div>

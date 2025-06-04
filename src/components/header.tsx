@@ -30,8 +30,8 @@ export default function Header() {
                 <li className="hidden lg:block"><a className='tab a' href="/">Accueil</a></li>
                 <li className="hidden lg:block"><a className='tab a' title='portfolio' href="/portfolio">Projets</a></li>
                 <li><img alt='logo' className='max-w-[64px] rounded-full m-4' src='logo.png'></img></li>
-                <li className="hidden lg:block"><a className='tab a' title='about' href="/about">À propos</a></li>
-                <li className="hidden lg:block"><a className='tab a' title='contact' href="/contact">Contact</a></li>
+                {/* <li className="hidden lg:block"><a className='tab a' title='about' href="/about">À propos</a></li> */}
+                {/* <li className="hidden lg:block"><a className='tab a' title='contact' href="/contact">Contact</a></li> */}
                 <li className='block lg:hidden'> <a href='#' onClick={() => handleMenu()}> <RiMenuLine  className="text-[#fff] w-[1.5rem] h-[1.5rem] m-4" /> </a> </li>
             </ul>
             <motion.div variants={dropdown} initial="variantInit" animate={openMenu ? 'variantAnim' : 'variantExit'}  className='fixed -z-[1] w-full max-w-[17rem] h-full max-h-[300px] bg-[--grey] rounded-[2.5rem]'>
@@ -40,7 +40,7 @@ export default function Header() {
                         <li><a className='mtab a' href="/">Accueil</a></li>
                         <li><a className='mtab a' href="/portfolio">Projects</a></li>
                         {/* <li><a className='mtab a' href="/about">About me</a></li> */}
-                        <li><a className='mtab a' href="/contact">Contact</a></li>
+                        {/* <li><a className='mtab a' href="/contact">Contact</a></li> */}
                         <li><a className='mtab a' href="">Contact</a></li>
                     </ul>
                 </nav>

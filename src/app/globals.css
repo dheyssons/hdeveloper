@@ -77,16 +77,16 @@
     @apply p-[2rem] pr-[1.25rem] min-h-[12rem] gap-[1.25rem] bg-cover rounded-[2.5rem] flex flex-col;
   }
   .left_top {
-    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.2)),url('/ser1.webp')] bg-[auto,cover];
+    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.8)),url('/ser1.webp')] bg-[auto,cover];
   }
   .right_top {
-    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.2)),url('/ser2.webp')] bg-[auto,cover];
+    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.8)),url('/ser2.webp')] bg-[auto,cover];
   }
   .left_bottom {
-    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.2)),url('/ser3.webp')] bg-[auto,cover];
+    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.7)),url('/ser3.webp')] bg-[auto,cover];
   }
   .right_bottom {
-    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.2)),url('/ser4.webp')] bg-[auto,cover];
+    @apply bg-[linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.7)),url('/ser4.webp')] bg-[auto,cover];
   }
   
 
