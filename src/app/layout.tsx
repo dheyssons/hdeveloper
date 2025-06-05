@@ -1,4 +1,7 @@
 import './globals.css'
+
+import { Analytics } from "@vercel/analytics/next"
+
 import type { Metadata } from 'next';
 
 import { Syne } from 'next/font/google';
@@ -27,6 +30,7 @@ export default function RootLayout({
         <Header />
         {children }
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
