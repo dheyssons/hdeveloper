@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "Hero": {
+      "HeroLine1": "Élevez-vous",
+      "HeroLine2": "Vers le nouveau",
+      "Description": "Faites passer votre entreprise à un autre niveau en prenant la bonne décision avec HDeveloper."
+    },
+    "WhoIAm": {
+      "Title1": "Derrière",
+      "Title2": "HDeveloper",
+      "Paragraph1": "Bonjour! Je m'appelle Dheysson Souza, je suis développeur web passionné par la création de solutions numériques innovantes et fonctionnelles.",
+      "Paragraph2": "Je maîtrise différentes technologies et j'adopte une approche axée sur les résultats, transformant les idées en produits digitaux percutants.",
+      "Paragraph3": "Pour moi, la clé d'une expérience utilisateur exceptionnelle réside dans la combinaison harmonieuse du design, de l'utilisabilité et d'un code propre.",
+      "TechnologiesTitle": "technologies que j'utilise"
+    },
+    "Services": {
+      "Title": "Services",
+      "Service1": {
+        "Title": "Design Graphique",
+        "Description": "Votre marque mérite d’être mémorable. Nous transformons vos idées en identités visuelles captivantes qui non seulement impressionnent, mais reflètent l’essence de votre message avec clarté et impact. Créons ensemble une image qui connectera réellement votre public à vous !"
+      },
+      "Service2": {
+        "Title": "Design et Développement Web",
+        "Description": "Nous concevons des sites web qui ne se contentent pas de fonctionner — ils captivent. Avec un design réactif et une navigation fluide, chaque clic devient une expérience mémorable, pensée pour engager, convertir et fidéliser."
+      },
+      "Service3": {
+        "Title": "Design UX/UI",
+        "Description": "Transformez l’interaction en connexion ! Nous créons des interfaces intuitives qui rendent la navigation simple et engageante, en assurant que vos utilisateurs se sentent à l’aise tout en explorant le meilleur de votre produit."
+      },
+      "Service4": {
+        "Title": "SEO",
+        "Description": "Soyez trouvé par ceux qui comptent vraiment ! Nous mettons en œuvre des stratégies SEO intelligentes pour augmenter la visibilité de votre site et le positionner en tête des résultats de recherche. Attirez plus de trafic et faites briller votre marque en ligne."
+      }
+    },
+    "Projects": {
+      "Title": "Projets",
+      "Subtitle": "récents",
+      "Project1": "Website Design & Development for Schrijnwerkerij De Haes",
+      "Project2": "Web Design & Development pour GMW Construct",
+      "Project3": "Web Design & Development pour Hygor Fonseca (Photographe)",
+      "Project4": "Web Design & Development pour Renato Fernandes (Photographe)",
+      "ViewAll": "Tous les projets"
+    }
+  },
+  "LetsWorkTogether": {
+    "Title": "Travaillons ensemble",
+    "Description": "Je suis toujours à la recherche de nouveaux défis et d'opportunités pour collaborer sur des projets passionnants. Si vous avez une idée ou si vous souhaitez faire passer votre entreprise au niveau supérieur, n'hésitez pas à me contacter ! Discutons ensemble pour voir comment je peux contribuer au succès de votre projet.",
+    "ContactButton": "Contactez-moi"
+  },
+  "Footer": {
+    "Menu": {
+      "Title": "Menu",
+      "Home": "Accueil",
+      "Projects": "Projets",
+      "About": "À propos de moi",
+      "Contact": "Contact"
+    },
+    "Social": {
+      "Email": "Email",
+      "Instagram": "Instagram",
+      "Whatsapp": "WhatsApp"
+    },
+    "Copyright": "Copyright © 2025 HDeveloper."
+  },
+  "Header": {
+    "NavItems": {
+      "Home": "Accueil",
+      "Projects": "Projets",
+      "About": "À propos",
+      "Contact": "Contact"
+    },
+    "MobileMenu": {
+      "Home": "Accueil",
+      "Projects": "Projets",
+      "About": "À propos de moi",
+      "Contact": "Contact"
+    }
+  }
+}
