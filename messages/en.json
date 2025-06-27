@@ -75,5 +75,18 @@
       "About": "About me",
       "Contact": "Contact"
     }
+  },
+  "ProjectsPage": {
+    "Title": {
+      "FirstPart": "My",
+      "SecondPart": "Projects"
+    },
+    "ProjectItems": {
+      "DeHaes": "Website Design & Development for Schrijnwerkerij De Haes",
+      "GMWConstruct": "Website Design & Development for GMW Construct",
+      "HygorFonseca": "Web Design & Development for Hygor Fonseca (Photographer)",
+      "RenatoFernandes": "Web Design & Development for Renato Fernandes (Photographer)",
+      "Placeholder": "Your business could be here"
+    }
   }
 }

@@ -9,8 +9,11 @@ import { transition1_s } from "../../../transitions/transition1_s";
 import { transition1_d } from "../../../transitions/transition1_d";
 
 import LetsWorkTogether from "@/components/LetsWorkTogether";
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
+  const t = useTranslations("ProjectsPage");
+
   return (
     <motion.section transition={transition1_s}>
       <div className="container mx-auto flex flex-col items-center gap-y-[8rem] px-4">
@@ -27,7 +30,7 @@ export default function Projects() {
                 viewport={{ once: true }}
                 className="h1"
               >
-                Mes
+                {t("Title.FirstPart")}
               </motion.h1>
               <div className="flex flex-row justify-center items-center w-[8rem] md:w-[12rem] h-[4rem] relative">
                 <img src="/mask.webp" alt="" />
@@ -49,13 +52,9 @@ export default function Projects() {
               viewport={{ once: true }}
               className="h1"
             >
-              Projets
+              {t("Title.SecondPart")}
             </motion.h1>
           </div>
-          {/* text  */}
-          {/* <motion.div variants={upward} initial="variantInit" whileInView="variantAnim" transition={transition1_d} viewport={{once: true}} >
-						<p className='p large'>Cras volutpat, libero et euismod semper, neque orci rhoncus magna, eu venenatis tortor nibh at purus. Vivamus sit amet commodo tortor.</p>
-					</motion.div> */}
         </div>
 
         {/* projects  */}
@@ -73,11 +72,9 @@ export default function Projects() {
               target="_blank"
               href="https://dehaes.vercel.app/"
             >
-              <div>
-                Website Design & Development for Schrijnwerkerij De Haes
-              </div>
+              <div>{t("ProjectItems.DeHaes")}</div>
               <div className="project_image_container">
-                <img src="projects/dehaes.png" alt="" />
+                <img src="/projects/dehaes.png" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -89,9 +86,9 @@ export default function Projects() {
               target="_blank"
               href="https://www.gmwconstructbe.com/"
             >
-              <div>Website Design & Development for GMW Construct</div>
+              <div>{t("ProjectItems.GMWConstruct")}</div>
               <div className="project_image_container">
-                <img src="projects/gmwconstruct.png" alt="" />
+                <img src="/projects/gmwconstruct.png" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -103,11 +100,9 @@ export default function Projects() {
               target="_blank"
               href="https://portfoliohygorfonseca.vercel.app/"
             >
-              <div>
-                Web Design & Development for Hygor Fonseca (Photographe)
-              </div>
+              <div>{t("ProjectItems.HygorFonseca")}</div>
               <div className="project_image_container">
-                <img src="projects/hygorfonseca.png" alt="" />
+                <img src="/projects/hygorfonseca.png" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -119,11 +114,9 @@ export default function Projects() {
               target="_blank"
               href="https://renatofernandes.vercel.app/"
             >
-              <div>
-                Web Design & Development for Renato Fernandes (Photographe)
-              </div>
+              <div>{t("ProjectItems.RenatoFernandes")}</div>
               <div className="project_image_container">
-                <img src="projects/renatofernandes.png" alt="" />
+                <img src="/projects/renatofernandes.png" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -134,10 +127,10 @@ export default function Projects() {
               className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
               href="#"
             >
-              <div>Votre entreprise pourrait être ici</div>
+              <div>{t("ProjectItems.Placeholder")}</div>
               <div className="project_image_container">
                 <img
-                  src="projects/placeholder.png"
+                  src="/projects/placeholder.png"
                   className="object-cover flex"
                   alt=""
                 />
@@ -148,7 +141,6 @@ export default function Projects() {
         </motion.div>
       </div>
 
-      {/* Lets work together  */}
       <LetsWorkTogether />
     </motion.section>
   );

@@ -9,6 +9,7 @@ import { dropdown } from "../variants/dropdown";
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./languageselector";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -23,7 +24,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex sticky w-full h-[100px] justify-center items-center z-50">
+    <header className="flex sticky w-full h-24 justify-center items-center z-50">
       <motion.nav
         variants={fade}
         initial="variantInit"
@@ -46,8 +47,11 @@ export default function Header() {
             <img
               alt="logo"
               className="max-w-[64px] rounded-full m-4"
-              src="logo.png"
+              src="/logo.png"
             ></img>
+          </li>
+          <li className="hidden lg:block">
+            <LanguageSwitcher />
           </li>
           {/* Uncomment when needed */}
           {/* <li className="hidden lg:block">
@@ -87,6 +91,9 @@ export default function Header() {
                 <a className="mtab a" href="">
                   {t("MobileMenu.Contact")}
                 </a>
+              </li>
+              <li>
+                <LanguageSwitcher />
               </li>
             </ul>
           </nav>

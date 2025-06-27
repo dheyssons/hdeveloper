@@ -1,0 +1,92 @@
+{
+  "HomePage": {
+    "Hero": {
+      "HeroLine1": "Verhef jezelf",
+      "HeroLine2": "Naar het nieuwe",
+      "Description": "Breng je bedrijf naar een hoger niveau door de juiste keuze te maken met HDeveloper."
+    },
+    "WhoIAm": {
+      "Title1": "Achter",
+      "Title2": "HDeveloper",
+      "Paragraph1": "Hallo! Mijn naam is Dheysson Souza, ik ben een webontwikkelaar met een passie voor het creëren van innovatieve en functionele digitale oplossingen.",
+      "Paragraph2": "Ik beheers verschillende technologieën en hanteer een resultaatgerichte aanpak om ideeën om te zetten in impactvolle digitale producten.",
+      "Paragraph3": "Voor mij ligt de sleutel tot een uitzonderlijke gebruikerservaring in de harmonieuze combinatie van design, bruikbaarheid en schone code.",
+      "TechnologiesTitle": "technologieën die ik gebruik"
+    },
+    "Services": {
+      "Title": "Diensten",
+      "Service1": {
+        "Title": "Grafisch Ontwerp",
+        "Description": "Jouw merk verdient het om memorabel te zijn. Wij vertalen je ideeën naar boeiende visuele identiteiten die niet alleen indruk maken, maar ook de essentie van je boodschap duidelijk en krachtig overbrengen. Laten we samen een beeld creëren dat echt resoneert met je publiek!"
+      },
+      "Service2": {
+        "Title": "Webdesign en Ontwikkeling",
+        "Description": "Wij maken websites die niet alleen werken — ze betoveren. Met responsief design en vloeiende navigatie wordt elke klik een memorabele ervaring, ontworpen om te boeien, converteren en loyaliteit op te bouwen."
+      },
+      "Service3": {
+        "Title": "UX/UI Design",
+        "Description": "Verander interactie in connectie! We creëren intuïtieve interfaces die navigatie eenvoudig en boeiend maken, zodat je gebruikers zich op hun gemak voelen terwijl ze het beste van je product ontdekken."
+      },
+      "Service4": {
+        "Title": "SEO",
+        "Description": "Laat je vinden door wie er echt toe doet! We implementeren slimme SEO-strategieën om de zichtbaarheid van je site te vergroten en deze bovenaan de zoekresultaten te plaatsen. Trek meer verkeer aan en laat je merk online schitteren."
+      }
+    },
+    "Projects": {
+      "Title": "Projecten",
+      "Subtitle": "recent",
+      "Project1": "Webdesign en Ontwikkeling voor Schrijnwerkerij De Haes",
+      "Project2": "Webdesign en Ontwikkeling voor GMW Construct",
+      "Project3": "Webdesign en Ontwikkeling voor Hygor Fonseca (Fotograaf)",
+      "Project4": "Webdesign en Ontwikkeling voor Renato Fernandes (Fotograaf)",
+      "ViewAll": "Bekijk alle projecten"
+    }
+  },
+  "LetsWorkTogether": {
+    "Title": "Laten we samenwerken",
+    "Description": "Ik ben altijd op zoek naar nieuwe uitdagingen en kansen om samen te werken aan interessante projecten. Heb je een idee of wil je je bedrijf naar een hoger niveau tillen? Aarzel dan niet om contact met mij op te nemen! Laten we praten over hoe ik kan bijdragen aan het succes van jouw project.",
+    "ContactButton": "Neem contact op"
+  },
+  "Footer": {
+    "Menu": {
+      "Title": "Menu",
+      "Home": "Startpagina",
+      "Projects": "Projecten",
+      "About": "Over mij",
+      "Contact": "Contact"
+    },
+    "Social": {
+      "Email": "E-mail",
+      "Instagram": "Instagram",
+      "Whatsapp": "WhatsApp"
+    },
+    "Copyright": "Copyright © 2025 HDeveloper."
+  },
+  "Header": {
+    "NavItems": {
+      "Home": "Startpagina",
+      "Projects": "Projecten",
+      "About": "Over",
+      "Contact": "Contact"
+    },
+    "MobileMenu": {
+      "Home": "Startpagina",
+      "Projects": "Projecten",
+      "About": "Over mij",
+      "Contact": "Contact"
+    }
+  },
+  "ProjectsPage": {
+    "Title": {
+      "FirstPart": "Mijn",
+      "SecondPart": "Projecten"
+    },
+    "ProjectItems": {
+      "DeHaes": "Website ontwerp en ontwikkeling voor Schrijnwerkerij De Haes",
+      "GMWConstruct": "Website ontwerp en ontwikkeling voor GMW Construct",
+      "HygorFonseca": "Webdesign en ontwikkeling voor Hygor Fonseca (Fotograaf)",
+      "RenatoFernandes": "Webdesign en ontwikkeling voor Renato Fernandes (Fotograaf)",
+      "Placeholder": "Uw bedrijf zou hier kunnen staan"
+    }
+  }
+}
