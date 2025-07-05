@@ -40,7 +40,7 @@ export default function Home() {
                 whileInView="variantAnim"
                 viewport={{ once: true }}
                 transition={transition1}
-                className="h1"
+                className="h2 text-[2.25rem] md:text-[6rem]"
               >
                 {t("Hero.HeroLine1")}
               </motion.h1>
@@ -68,7 +68,7 @@ export default function Home() {
               whileInView="variantAnim"
               viewport={{ once: true }}
               transition={transition1}
-              className="h1"
+              className="h2 text-[2.25rem] md:text-[6rem]"
             >
               {t("Hero.HeroLine2")}
             </motion.h1>
@@ -125,14 +125,14 @@ export default function Home() {
                   whileInView="variantAnim"
                   viewport={{ once: true }}
                   transition={transition1}
-                  className="h2"
+                  className="h4 text-[2rem] md:text-[3rem]"
                 >
                   {t("WhoIAm.Title1")}
                 </motion.h2>
                 <div className="relative">
                   <img
                     src="/sla.webp"
-                    className="w-full max-w-[81px] md:max-w-[178px]"
+                    className="w-full max-w-[81px] md:max-w-[144px]"
                     alt=""
                   />
                   <motion.div
@@ -166,7 +166,7 @@ export default function Home() {
               whileInView="variantAnim"
               viewport={{ once: true }}
               transition={transition1}
-              className="flex flex-col grey max-w-[30rem] h-full rounded-[2.5rem] p-8 justify-around"
+              className="flex flex-col grey max-w-[30rem] h-full rounded-[2.5rem] p-6 md:p-8 justify-around"
             >
               <p className={`p regular tracking-widest leading-5`}>
                 {t("WhoIAm.Paragraph1")}
@@ -183,27 +183,22 @@ export default function Home() {
                 <h6 className="h6">{t("WhoIAm.TechnologiesTitle")}</h6>
                 <div className="flex flex-row gap-x-4">
                   <img
-                    width={64}
-                    height={64}
+                    className="w-12 md:w-16"
                     alt="typescript"
                     src="https://pbs.twimg.com/profile_images/1648471227416346625/v84A9gXA_400x400.png"
                   ></img>
                   <img
-                    width={64}
-                    height={64}
+                    className="w-12 md:w-16"
                     alt="nodejs"
                     src="https://wearenodev.github.io/img/icon/nodejs.png"
                   ></img>
                   <img
-                    width={64}
-                    height={64}
                     alt="next"
-                    className="rounded-md"
+                    className="rounded-md w-12 md:w-16"
                     src="https://cmscritic.com/ms-content/uploads/2023/08/nextjs-product-logo.jpeg?format=auto&width=256"
                   ></img>
                   <img
-                    width={64}
-                    height={64}
+                    className="w-12 md:w-16"
                     alt="react"
                     src="https://bognarjunior.wordpress.com/wp-content/uploads/2018/03/if_react-js_logo_1174949.png"
                   ></img>
@@ -228,7 +223,7 @@ export default function Home() {
           whileInView="variantAnim"
           viewport={{ once: true }}
           transition={transition1}
-          className="flex flex-col items-center gap-y-16 m-10"
+          className="flex flex-col items-center gap-y-16 m-4 md:m-10"
         >
           <h2 className="h2">{t("Services.Title")}</h2>
           <div className="max-w-[62rem] grid md:grid-cols-2 gap-[1.25rem]">
@@ -356,7 +351,7 @@ export default function Home() {
               </a>
             </div>
 
-            <a href="/portfolio" className="mt-10 btn self-center">
+            <a href="/portfolio" className="mt-10 btn self-center text-center">
               {t("Projects.ViewAll")}
             </a>
           </motion.div>

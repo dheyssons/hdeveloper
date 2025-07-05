@@ -61,13 +61,13 @@
   }
 
   .btn {
-    @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base bg-[#1e1e1e] text-white rounded-full border-[2px] text-[1.25rem] transition-all duration-500;
+    @apply py-3 px-8 h-12 flex items-center justify-center text-base bg-[#1e1e1e] text-white rounded-full border-[2px] text-[1.25rem] transition-all duration-500;
   }
   .btn:hover {
     @apply bg-[#fff] text-[#1e1e1e];
   }
   .btn_light {
-    @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base bg-white text-[#1e1e1e] rounded-full border-[2px] text-[1.25rem] transition-all duration-500;
+    @apply py-3 px-8 h-12 flex items-center justify-center text-base bg-white text-[#1e1e1e] rounded-full border-[2px] text-[1.25rem] transition-all duration-500;
   }
   .btn_light:hover {
     @apply bg-[#1e1e1e] text-white;
@@ -134,7 +134,7 @@
   }
 
   .social_link {
-    @apply hover:text-[#ffffffcc] text-[1.2rem] md:text-[1.8rem] font-[600] transition-all;
+    @apply hover:text-[#ffffffcc] text-[1.1rem] md:text-[1.4rem] font-[600] transition-all;
   }
 
   .active_tab {

@@ -25,7 +25,10 @@ export default function LanguageSwitcher() {
     >
       {locales.map((locale) => (
         <option key={locale} value={locale}>
-          {locale.toUpperCase()}
+          {locale.toUpperCase() == "FR" ? "FRANÇAIS" : ""}
+          {locale.toUpperCase() == "PT" ? "PORTUGUÊS" : ""}
+          {locale.toUpperCase() == "EN" ? "ENGLISH" : ""}
+          {locale.toUpperCase() == "NL" ? "NEDERLANDS" : ""}
         </option>
       ))}
     </select>
