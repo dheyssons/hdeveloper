@@ -12,14 +12,10 @@ import { item } from "../../variants/item";
 import { righttoleft } from "../../variants/righttoleft";
 import { lefttoright } from "../../variants/lefttoright";
 
-import { useState } from "react";
-
 import LetsWorkTogether from "@/components/LetsWorkTogether";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
-  const [activeTestimonial, setActiveTestimonial] = useState(0);
-
   const t = useTranslations("HomePage");
 
   return (
@@ -40,7 +36,7 @@ export default function Home() {
                 whileInView="variantAnim"
                 viewport={{ once: true }}
                 transition={transition1}
-                className="h2 text-[2.25rem] md:text-[6rem]"
+                className="h2 hero_line1 text-[2.25rem] md:text-[6rem]"
               >
                 {t("Hero.HeroLine1")}
               </motion.h1>
@@ -306,7 +302,7 @@ export default function Home() {
               >
                 <div>{t("Projects.Project1")}</div>
                 <div className="project_image_container">
-                  <img src="projects/dehaes.png" alt="" />
+                  <img src="projects/dehaes.webp" alt="" />
                 </div>
                 <div className="project"></div>
               </a>
@@ -319,7 +315,7 @@ export default function Home() {
               >
                 <div>{t("Projects.Project2")}</div>
                 <div className="project_image_container">
-                  <img src="projects/gmwconstruct.png" alt="" />
+                  <img src="projects/gmwconstruct.webp" alt="" />
                 </div>
                 <div className="project"></div>
               </a>
@@ -332,7 +328,7 @@ export default function Home() {
               >
                 <div>{t("Projects.Project3")}</div>
                 <div className="project_image_container">
-                  <img src="projects/hygorfonseca.png" alt="" />
+                  <img src="projects/hygorfonseca.webp" alt="" />
                 </div>
                 <div className="project"></div>
               </a>
@@ -345,7 +341,7 @@ export default function Home() {
               >
                 <div>{t("Projects.Project4")}</div>
                 <div className="project_image_container">
-                  <img src="projects/renatofernandes.png" alt="" />
+                  <img src="projects/renatofernandes.webp" alt="" />
                 </div>
                 <div className="project"></div>
               </a>
