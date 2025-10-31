@@ -5,8 +5,8 @@
 @layer base {
   :root {
     --main-bg-color: #101010;
-    --grey: #1e1e1e;
-    --grey-medium: #2c2c2c;
+    --grey: #181818;
+    --grey-medium: #181818;
     --off-white: #e5e5e5;
     --text-dark: #000000;
     --text-light: #ffffff;

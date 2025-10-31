@@ -298,7 +298,7 @@ export default function Home() {
               <a
                 className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
                 target="_blank"
-                href="https://dehaes.vercel.app/"
+                href="https://schrijnwerkerij-dehaes.be/"
               >
                 <div>{t("Projects.Project1")}</div>
                 <div className="project_image_container">
@@ -329,19 +329,6 @@ export default function Home() {
                 <div>{t("Projects.Project3")}</div>
                 <div className="project_image_container">
                   <img src="projects/hygorfonseca.webp" alt="" />
-                </div>
-                <div className="project"></div>
-              </a>
-            </div>
-            <div className="border-b-2 border-b-[--grey-medium]">
-              <a
-                className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
-                target="_blank"
-                href="https://renatofernandes.vercel.app"
-              >
-                <div>{t("Projects.Project4")}</div>
-                <div className="project_image_container">
-                  <img src="projects/renatofernandes.webp" alt="" />
                 </div>
                 <div className="project"></div>
               </a>
