@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
     <select
       onChange={handleChange}
       value={currentLocale}
-      className=" rounded-full bg-[#1e1e1e] p-4"
+      className="rounded-full bg-[#1e1e1e] p-[20px]"
     >
       {locales.map((locale) => (
         <option key={locale} value={locale}>

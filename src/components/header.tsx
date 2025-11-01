@@ -30,7 +30,7 @@ export default function Header() {
         initial="variantInit"
         animate="variantAnim"
         transition={transition1}
-        className="grey flex w-full max-w-[21rem] lg:max-w-max justify-center items-center h-[80px] rounded-full border-[1px] border-[#fff] mt-4"
+        className="grey flex w-full max-w-[21rem] lg:max-w-max justify-center items-center h-20 rounded-full border-[1px] border-[#fff] mt-4"
       >
         <ul className="flex flex-row gap-x-10 w-full justify-between items-center m-2">
           <li className="hidden lg:block">

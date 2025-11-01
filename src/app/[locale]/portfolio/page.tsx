@@ -70,11 +70,11 @@ export default function Projects() {
             <a
               className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
               target="_blank"
-              href="https://dehaes.vercel.app/"
+              href="https://schrijnwerkerij-dehaes.be/"
             >
               <div>{t("ProjectItems.DeHaes")}</div>
               <div className="project_image_container">
-                <img src="/projects/dehaes.png" alt="" />
+                <img src="/projects/dehaes.webp" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -88,7 +88,7 @@ export default function Projects() {
             >
               <div>{t("ProjectItems.GMWConstruct")}</div>
               <div className="project_image_container">
-                <img src="/projects/gmwconstruct.png" alt="" />
+                <img src="/projects/gmwconstruct.webp" alt="" />
               </div>
               <div className="project"></div>
             </a>
@@ -102,21 +102,7 @@ export default function Projects() {
             >
               <div>{t("ProjectItems.HygorFonseca")}</div>
               <div className="project_image_container">
-                <img src="/projects/hygorfonseca.png" alt="" />
-              </div>
-              <div className="project"></div>
-            </a>
-          </div>
-
-          <div className="border-b-2 border-b-[--grey-medium]">
-            <a
-              className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
-              target="_blank"
-              href="https://renatofernandes.vercel.app/"
-            >
-              <div>{t("ProjectItems.RenatoFernandes")}</div>
-              <div className="project_image_container">
-                <img src="/projects/renatofernandes.png" alt="" />
+                <img src="/projects/hygorfonseca.webp" alt="" />
               </div>
               <div className="project"></div>
             </a>
