@@ -77,7 +77,7 @@ export default function Footer() {
                     <li>
                       <a
                         className={`${archivo.className} social_link btn_light`}
-                        href="https://api.whatsapp.com/send?phone=5562993127493"
+                        href="https://api.whatsapp.com/send?phone=5569993850840"
                         target="_blank"
                       >
                         {t("Social.Whatsapp")}
