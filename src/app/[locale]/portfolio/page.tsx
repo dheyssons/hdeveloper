@@ -66,6 +66,22 @@ export default function Projects() {
           transition={transition1}
           className="w-full max-w-[75rem] flex flex-col justify-center"
         >
+          {/* wd toitures */}
+          <div className="border-b-2 border-b-[--grey-medium]">
+            <a
+              className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
+              target="_blank"
+              href="https://wdtoitures.be/"
+            >
+              <div>{t("ProjectItems.WDToitures")}</div>
+              <div className="project_image_container">
+                <img src="/projects/wdtoitures.webp" alt="" />
+              </div>
+              <div className="project"></div>
+            </a>
+          </div>
+
+          {/* de haes */}
           <div className="border-b-2 border-b-[--grey-medium]">
             <a
               className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
@@ -80,6 +96,7 @@ export default function Projects() {
             </a>
           </div>
 
+          {/* gmw construct */}
           <div className="border-b-2 border-b-[--grey-medium]">
             <a
               className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
@@ -94,6 +111,7 @@ export default function Projects() {
             </a>
           </div>
 
+          {/* hygor fonseca */}
           <div className="border-b-2 border-b-[--grey-medium]">
             <a
               className="a project_title text-[1.2rem] md:text-[1.5rem] flex h-[7.75rem] items-center relative"
